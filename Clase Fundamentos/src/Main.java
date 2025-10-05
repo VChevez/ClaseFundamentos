@@ -1,15 +1,13 @@
-// Archivo: Principal.java
+import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
-        // Crear un objeto de la clase Persona
-        Persona p1 = new Persona("Carlos", 19,"tomates");
-        Persona p2 = new Persona("Farry", 22,"frituras");
-        Persona p3 = new Persona("Tobar",25,"aguacates");
-        // Usar los métodos de la clase Persona
-        p1.saludar();
-        p2.saludar();
-        p3.saludar();
 
+    public static void main(String[]args) {
+        Scanner h = new Scanner(System.in);
+        double a = h.nextDouble();
+        double resultado = (double) 1/a;
+        System.out.println(resultado);
+        System.out.println("Estas son las monedas necesarias para llegar a un dólar");
 
-}
-}
+    }
+
+    }
